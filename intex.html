@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djomegni Ngoko Jean Joel | Network & Security</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Samar<span>.sec</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hello">Hello, I'm</p>
+            <h1>Djomegni Ngoko <span>Jean Joel</span></h1>
+            <h2>Network and Security Student | Offensive Security</h2>
+            <p class="intro">I learn how systems break, so I can help defend them. Passionate about Ethical Hacking, Networking and Electronics Repair.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View My Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <!-- Replace src with your photo -->
+            <img src="myphoto.jpg" alt="Samar Temperaux">
+            <div class="badge">Available for Internship</div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-box">
+            <p>I am a Network and Security student based in Yaounde, Cameroon, mainly focused on <strong>Offensive Security</strong> (Cybersecurity).</p>
+            <p>My goal is to become a Penetration Tester / Security Analyst. I build home labs, practice scanning and enumeration, and learn how attackers think to build better defenses.</p>
+            <p>I also have hands-on experience in electronics repair, especially phones, and in basic Routing and Switching.</p>
+            <div class="about-info">
+                <p><strong>Name:</strong> Djomegni Ngoko Jean Joel</p>
+                <p><strong>Field:</strong> Network & Security</p>
+                <p><strong>Focus:</strong> Offensive Security</p>
+                <p><strong>Location:</strong> Yaounde, Cameroon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill"><p>Networking (Routing & Switching) <span>85%</span></p><div class="bar"><div class="fill" data-width="85"></div></div></div>
+            <div class="skill"><p>Electronics Repair (Phones) <span>90%</span></p><div class="bar"><div class="fill" data-width="90"></div></div></div>
+            <div class="skill"><p>Cybersecurity Basics <span>80%</span></p><div class="bar"><div class="fill" data-width="80"></div></div></div>
+            <div class="skill"><p>Linux / Kali Linux <span>75%</span></p><div class="bar"><div class="fill" data-width="75"></div></div></div>
+            <div class="skill"><p>HTML & CSS <span>70%</span></p><div class="bar"><div class="fill" data-width="70"></div></div></div>
+            <div class="skill"><p>Ethical Hacking / Pentest Basics <span>65%</span></p><div class="bar"><div class="fill" data-width="65"></div></div></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Network Lab">
+                <h3>Home Lab Network</h3>
+                <p>Configured a small lab with routers and switches, VLANs, and basic security.</p>
+                <a href="#" class="btn small">View Project</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Phone Repair">
+                <h3>Phone Repair & Diagnostics</h3>
+                <p>Diagnosed and repaired phones, hardware troubleshooting and component replacement.</p>
+                <a href="#" class="btn small">View Project</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" alt="Pentest Lab">
+                <h3>Basic Penetration Testing Lab</h3>
+                <p>Practiced scanning, enumeration and vulnerability assessment in a safe lab with Kali Linux.</p>
+                <a href="#" class="btn small">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Email:</strong> jeanjoeldjomegningoko@gmail.com</p>
+                <p><strong>Phone:</strong> +237 673621844</p>
+                <p><strong>Location:</strong> Yaounde, Cameroon</p>
+                <p><a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+            </div>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+                <p id="formMsg" class="form-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer><p>© 2026 Samar Temperaux. Built with HTML, CSS & JS.</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
