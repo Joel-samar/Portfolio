@@ -26,3 +26,6 @@ https://joel-samar.github.io/Portfolio/
 
 ## Author
 Joel Samar
+
+## Git Workflow
+Main branch is protected. New features are made in a feature branch, then merged via Pull Request.
